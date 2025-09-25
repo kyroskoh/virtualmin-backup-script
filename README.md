@@ -40,6 +40,12 @@ A robust shell script for backing up **Virtualmin domains (virtual servers)** an
 
 ## 🚀 Usage
 
+Clone and Install:
+
+```bash
+git clone https://github.com/kyroskoh/virtualmin-backup-script.git
+```
+
 Make the script executable:
 
 ```bash
