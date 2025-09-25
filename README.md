@@ -12,7 +12,7 @@ A robust shell script for backing up **Virtualmin domains (virtual servers)** an
 
 ---
 
-## 📦 Features
+## ✨ Features
 
 - **Domain backups** with `virtualmin backup-domain`
 - **Config backups** with `backup-config.pl` (auto-detected if present)
