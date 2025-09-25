@@ -70,7 +70,7 @@ Options
 | `--backend`       | Destination backend: `local` (default), `s3`, `scp`, `rsync` |
 | `--remote-rotate` | Prune remote to keep only last N backups                     |
 
-S3 Backend
+### S3 Backend
 ```bash
 sudo ./virtualmin_backup.sh --all \
   --backend s3 \
@@ -82,7 +82,7 @@ Options:
 `--s3-uri <s3://bucket/prefix>`
 `--aws-profile <profile>` (optional)
 
-SCP Backend
+### SCP Backend
 ```bash
 sudo ./virtualmin_backup.sh example.com \
   --backend scp \
@@ -99,7 +99,7 @@ Options:
 `--scp-path <remote-path>`
 `--scp-key <private-key>` (optional)
 
-rsync Backend
+### rsync Backend
 ```bash
 sudo ./virtualmin_backup.sh --all \
   --backend rsync \
